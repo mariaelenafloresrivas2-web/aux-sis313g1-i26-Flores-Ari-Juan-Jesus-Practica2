@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(231, 224, 224);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1, h2 {
+    text-align: center;
+    margin: 0;
+}
+.linea {
+    width: 60px;
+    height: 5px;
+    background-color: #2f6fb2;
+    margin: 10px auto 30px;
+}
+.datos {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto 30px;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h3 {
+    margin-left: 10%;
+}
+
+.niveles {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.niveles a {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    color: black;
+    font-size: 12px;
+    border-radius: 0px;
+}
+
+.niveles a:first-child {
+    background-color: white;
+    color: black;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.nivel {
+    margin: 50px;
+    padding: 50px;
+    border: 2px solid black;
+     background-color: white;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+}
+.color {
+    width: 80px;
+    height: 80px;
+}
+
+.rojo {
+    background-color: red;
+    border-radius: 8px;
+}
+
+.amarillo {
+    background-color: yellow;
+    border-radius: 8px;
+
+}
+
+.verde {
+    background-color: green;
+    border-radius: 8px;
+}
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+   border: 2px solid black;
+}
+.btn {
+    justify-content: center;
+    
+}
+.nivel1 {
+    justify-content: center;
+}
+.nivel2 {
+    justify-content: flex-end;
+}
+.nivel3 {
+    align-items: center;
+    justify-content: flex-start; 
+}
+.nivel4 {
+    align-items: flex-end;
+    justify-content: flex-start; 
+}
+.nivel5 {
+    align-items: center;
+    justify-content: center; 
+}
+.nivel6 {
+    align-items: flex-end;
+    justify-content: center; 
+    gap: 150px;
+}
+.nivel7 {
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+.nivel8 {
+    flex-direction: row-reverse;
+    justify-content: flex-start; 
+   
+}
+.nivel9 {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.nivel10 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+   
+}
+.nivel11 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
